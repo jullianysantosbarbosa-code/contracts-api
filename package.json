@@ -1,0 +1,17 @@
+{
+  "name": "contracts-api",
+  "version": "1.0.0",
+  "description": "A dependency-free REST API for managing supplier contracts, built with Node.js.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["rest-api", "nodejs", "contracts", "procurement"],
+  "author": "Julliany Barbosa",
+  "license": "MIT"
+}
